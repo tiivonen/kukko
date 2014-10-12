@@ -1,4 +1,4 @@
-kukko
+kukko.info
 =====
 
-Kukko.info site
+html5, scss, maybe jekyll.. who knows.
