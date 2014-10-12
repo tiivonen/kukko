@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html class="">
 <head>
@@ -5,16 +7,20 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Kukko.info</title>
+  <title>{{ site.data.settings.title}}</title>
 
   <link rel="stylesheet" href="assets/css/kukko.css">
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="//use.typekit.net/ima1xmp.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
 
 </head>
 <body>
-<h1>Kukko.info</h1>
-<p>Koska kukaan ei saa tykätä kukko-oluesta!</p>
-<p>Työn alla. Kuvittele tähän oranssi majakka ja liikennemerkki jossa mies lapioi aidan takana. Niin retroa!</p>
+{% include header.html %}
+
+<p>Kukon juomiseen on monia syitä. Mainokset eivät ole yksi niistä!</p>
+
+{% include footer.html %}
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- <script src="assets/js/functions.js"></script> -->
 <!-- REMEMBER TO ADD ANALYTICS! -->
