@@ -1,28 +1,20 @@
 ---
+layout: default
+title: Kukkotarha
 ---
-<!DOCTYPE html>
-<html class="">
-<head>
-  <meta charset="UTF-8">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ site.data.settings.title}}</title>
+<section class="blog-section">
 
-  <link rel="stylesheet" href="assets/css/kukko.css">
-  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <script src="//use.typekit.net/ima1xmp.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+	<div class="blog-post-list">
+		{% for post in site.posts %}
+		<a href="{{ post.url }}" class="blog-post bold">{{ post.title }}</a>
+		{% endfor %}
+	</div>
 
-</head>
-<body>
-{% include header.html %}
+</section>
 
-<p>Kukon juomiseen on monia syitä. Mainokset eivät ole yksi niistä!</p>
-
-{% include footer.html %}
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<!-- <script src="assets/js/functions.js"></script> -->
-<!-- REMEMBER TO ADD ANALYTICS! -->
-</body>
-</html>
+<!-- {% include sidebar.html %}
+ -->
+<section>
+	<p>Kukon juomiseen on monia syitä. Mainokset eivät ole yksi niistä!</p>
+</section>

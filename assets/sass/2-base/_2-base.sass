@@ -1,0 +1,11 @@
+@import "vars"
+
+body
+	background: url(/assets/img/kukko.jpg) no-repeat center center fixed
+	background-size: cover
+	text-align: center
+	@include media(">tablet", "<=desktop", "retina2x")
+		background: blue
+
+.bold
+	font-weight: bold

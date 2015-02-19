@@ -1,4 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title }} - { site.data.settings.title }</title>
+
+  <link rel="stylesheet" href="/assets/css/kukko.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="//use.typekit.net/ima1xmp.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body>
+
 <header id="header">
-	<h1>{{ site.data.settings.title }}</h1>
+	<h1><a href="{{site.url}}">{{ site.data.settings.title }}</a></h1>
 	<p class="kicker">{{ site.data.settings.description }}</p>
 </header>

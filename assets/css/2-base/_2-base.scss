@@ -1,8 +1,0 @@
-@import "vars";
-
-body {
-	// background-color: #086a53;
-	// @include background-image( radial-gradient(50% 50%, circle cover, #1e5799, #3dc3d1) );
-	@include linear-gradient(90deg, $bkgcolor, shade($bkgcolor, 20%));
-	text-align: center;
-}

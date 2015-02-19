@@ -1,0 +1,40 @@
+// Blog list at index.html
+
+.blog-post-list
+	max-width: 1020px
+	margin: 0 auto
+	+padding(em(30) 10% em(30) 10%)
+	+clearfix
+
+	.blog-post
+		box-sizing: border-box
+		display: block
+		width: ((100% - (2 * 6%)) / 3)
+		margin-right: 6%
+		margin-bottom: 6%
+		border: 4px solid $almostwhite
+		+padding(em(30) em(15))
+		text-decoration: none
+		color: black
+		// background-color: $pils
+		// &:nth-child(1n+1)
+		// 	background: $pils
+		// 	border-radius: 20px 40px 20px 40px
+		&:nth-child(even)
+			background: $bkgcolor
+			border-radius: 40px 20px 40px 20px
+		&:nth-child(odd)
+			// margin-right: 0
+			background: $pils
+			border-radius: 20px
+		&:nth-child(3n)
+			margin-right: 0
+		// &:nth-child(4n+4)
+		// 	background: $wheat
+		// 	border-radius: 10px
+		&:hover
+			border-color: shade($almostwhite, 20%)
+			border-radius: 0
+			+transition()
+		height: em(150)
+		float: left

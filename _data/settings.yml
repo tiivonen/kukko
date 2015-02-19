@@ -1,7 +1,12 @@
-title: Kukko.info
+title: Kukkotarha
 description: Koska kukaan ei saa tykätä kukko-oluesta!
 email: kukkotarha@gmail.com
-disclaimer: Tällä sivustolla ei ole kytköksiä Laitilan Virvoitusjuomatehtaaseen. Kehityskoneistoa on kylläkin voideltu vaalealla Kukko lager oluella. Nam!
+disclaimer: Tällä sivustolla ei ole kytköksiä Laitilan Virvoitusjuomatehtaaseen. Kehityskoneistoa on kylläkin voideltu Kukko lager oluella. Nam!
 
-# Liners:
+# 1Liners:
 1liner1: Kukko tykkää tulla juoduksi!
+
+# Slides
+slides:
+- {name: Rooster, thumb: 'rooster_thumb.jpg', fullsize: 'rooster_full.jpg', filename: rooster}
+- {name: Cock, thumb: 'cock_thumb.jpg', fullsize: 'cock_full.jpg', filename: cock}

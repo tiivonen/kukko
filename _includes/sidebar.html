@@ -1,0 +1,5 @@
+<div class="sidebar">
+	{% for slide in site.data.settings.slides %}
+	<a href="{{ site.url }}/assets/img/slides/{{ slide.filename }}_full.jpg" class="slide"><img src="{{ site.url }}/assets/img/slides/{{ slide.filename }}_thumb.jpg" alt=""></a>
+	{% endfor %}
+</div>
