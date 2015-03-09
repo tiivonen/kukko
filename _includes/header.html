@@ -14,9 +14,9 @@
   <link rel="shortcut icon" href="assets/img/favicon.ico"/>
 </head>
     <header class="svgheader">
-      <svg preserveAspectRatio="xMinYMin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <title>Kukko.info</title>
-        <desc>Kukkotarha</desc>
+      <svg preserveAspectRatio="xMinYMin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewbox="0 0 602 456">
+        <title>{{ site.data.settings.title }}</title>
+        <desc>{{ site.data.settings.description }}</desc>
         <defs>
           <mask id="CrestMask">
             <image width="100%" height="100%" xlink:href="assets/img/crest_mask.png"></image>
@@ -24,6 +24,7 @@
         </defs>
         <image mask="url(#CrestMask)" width="100%" height="100%" xlink:href="assets/img/crest.jpg"></image>
       </svg>
+      <h1>{{ site.data.settings.title }}</h1>
     </header>
 
 <body>
