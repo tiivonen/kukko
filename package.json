@@ -1,0 +1,33 @@
+{
+  "name": "jekyll-gulp-starter",
+  "version": "0.0.0",
+  "description": "A modified Jekyll starter project from shakyShanes (jekyll-gulp-sass-browser-sync)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timo Iivonen",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.8.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiivonen/jekyll-gulp-starter.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync",
+    "uglify"
+  ],
+  "homepage": "https://github.com/tiivonen/jekyll-gulp-starter"
+}

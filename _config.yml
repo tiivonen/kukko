@@ -1,0 +1,3 @@
+name: Kukkotarha
+markdown: redcarpet
+exclude: ["node_modules", "gulpfile.js", "package.json", "assets/css/main.sass", assets/js/main.js]
